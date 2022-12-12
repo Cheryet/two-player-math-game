@@ -12,4 +12,5 @@ class questions
     num2 = rand(1..10)
     @answer = num1 + num2
     puts "What is the answer to #{num1} plus #{num2}?"
+  end
 end

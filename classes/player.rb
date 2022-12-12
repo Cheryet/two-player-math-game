@@ -1,8 +1,7 @@
 #Class for a new player
 
 class Player 
-  attr_accessor :name
-  attr_accessor :lifes
+  attr_accessor :name, :lives
 
   def initialize(name)
     @name = name

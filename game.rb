@@ -13,7 +13,7 @@ class Game
     if @current_player == @players[0]
       @current_player = @players[1]
     else 
-      @current_player = @player[0]
+      @current_player = @players[0]
     end
   end
 
@@ -25,7 +25,7 @@ class Game
   end
 
   def report_lifes 
-    puts "Remaining lifes - P1 #{@players[0].lifes}, P2 #{@players[1].lifes}"
+    puts "Remaining lifes:  #{@players[0].name} - #{@players[0].lifes}/3, #{@players[1].name} - #{@players[1].lifes}/3"
   end
 
 end

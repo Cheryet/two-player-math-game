@@ -1,5 +1,7 @@
-
+# ~ Requires ~
 require './classes/player'
+require './classes/game'
+require './classes/question'
 
 # ~ Math Game ~
 

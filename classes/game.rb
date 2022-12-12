@@ -21,12 +21,12 @@ class Game
     @current_player.life -= 1
     if @current_player.life == 0
       puts "Oh no, you are dead. Better luck next time #{@current_player.name}"
+    end
   end
 
   def report_lifes 
     puts "Remaining lifes - P1 #{@players[0].life}, P2 #{@players[1].life}"
   end
-
 
 end
 

@@ -1,5 +1,5 @@
 
-class questions
+class Questions
 
   attr_reader :answer
 

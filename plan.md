@@ -12,9 +12,9 @@ def change player
 
 def report score
 
-Player Class => player.rb
-@name
-@lives
+√ Player Class => player.rb
+√ @name
+√ @lives
 
 Question Class => question.rb
 @num1

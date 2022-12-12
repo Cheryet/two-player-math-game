@@ -1,6 +1,8 @@
 
 class questions
 
+  attr_reader :answer
+
   def initialize
     @answer
   end

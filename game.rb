@@ -20,7 +20,7 @@ class Game
   def remove_life
     @current_player.lifes -= 1
     if @current_player.lifes == 0
-      puts "Oh no, you are dead. Better luck next time #{@current_player.name}"
+      puts "Oh no, you are dead. Better luck next time #{@current_player.name}!"
     end
   end
 
